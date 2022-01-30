@@ -1,0 +1,37 @@
+body{
+  background: linear-gradient(to top left, pink, powderblue);
+  height:98vh;
+}
+.progressBar{
+  width:500px;
+  height: 30px;
+  border: 2px solid black;
+  /* background: linear-gradient(to right, red 50%, transparent 50%); */
+  border-radius:15px;
+  
+}
+
+
+.btn{
+  width:150px;
+  height:40px;
+  margin-top:20px;
+  border-radius:15px;
+  font-size:25px;
+}
+
+.App{
+  margin: 200px auto;
+  width:800px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.progressBarText{
+  font-size:25px;
+}
+
+.containerBar{
+  margin-top:20px;
+}
